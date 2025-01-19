@@ -1,0 +1,118 @@
+/* General body styling */
+body {
+    background-color: ghostwhite;
+    color: black;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+.Quantum {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 40px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+/* List styling */
+ul {
+    font-style: italic;
+    color: blue;
+}
+
+/* Div container styling */
+div {
+    background-color: wheat;
+    border: solid 3px brown;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+/* Styling for the floating infinite image */
+.infinite {
+    float: right;
+    margin: 10px;
+}
+
+/* Figure and image alignment */
+figure {
+    text-align: center;
+    margin: 20px auto;
+}
+
+figure img {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Form styling */
+form {
+    margin-top: 20px;
+}
+
+fieldset {
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input and button styling */
+input, textarea, button {
+    margin: 5px 0;
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: brown;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: whitesmoke;
+    border-top: 5px solid brown;
+}
+
+/* Links styling */
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Social media icons */
+a img {
+    margin: 5px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+}
